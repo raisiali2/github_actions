@@ -12,4 +12,6 @@ jobs:
       - name: Print greeting
         run: echo "hello world!"
       - name: print goodbye
-        run: echo "done - bye!"
+        run: | 
+            echo "before good bye!"
+            echo "done - bye!"
